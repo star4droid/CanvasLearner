@@ -10,29 +10,25 @@
 		android:layout_width="match_parent"
 		android:layout_height="wrap_content"
 		android:padding="8dp"
-		android:background="#8BC34A"
+		android:background="#FFAB40"
 		android:gravity="center_vertical"
 		android:orientation="horizontal">
 		<ImageView
 			android:id="@+id/imageview1"
+			android:focusable="false"
 			android:layout_width="35dp"
 			android:layout_height="35dp"
-			android:src="@drawable/tuto"
+			android:src="@drawable/teach"
 			android:scaleType="fitCenter" />
 		<TextView
-			android:id="@+id/textview1"
-			android:layout_width="match_parent"
+			android:id="@+id/name"
+			android:focusable="false"
+			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
 			android:padding="8dp"
-			android:text="Tutorials"
+			android:text="TextView"
 			android:textSize="12sp"
 			android:textStyle="bold"
-			android:textColor="#3E2723" />
+			android:textColor="#000000" />
 	</LinearLayout>
-	<ListView
-		android:id="@+id/listview1"
-		android:layout_width="match_parent"
-		android:layout_height="match_parent"
-		android:padding="8dp"
-		android:choiceMode="none" />
 </LinearLayout>
